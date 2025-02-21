@@ -27,12 +27,14 @@
             height: 60px;
             resize: vertical;
         }
+        .radio-group input {
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Lista de Chequeo de Casos de Uso</h1>
-    
-   
+
     <h2>Caso de Uso: Registrar Usuario</h2>
     <table>
         <thead>
@@ -47,37 +49,37 @@
         <tbody>
             <tr>
                 <td>1. Formulario de registro visible</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="registro1" value="cumple"></td>
+                <td><input type="radio" name="registro1" value="no_cumple"></td>
+                <td><input type="radio" name="registro1" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>2. Validación de datos (email no registrado)</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="registro2" value="cumple"></td>
+                <td><input type="radio" name="registro2" value="no_cumple"></td>
+                <td><input type="radio" name="registro2" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>3. Validación de contraseña (criterios de seguridad)</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="registro3" value="cumple"></td>
+                <td><input type="radio" name="registro3" value="no_cumple"></td>
+                <td><input type="radio" name="registro3" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>4. Confirmación de registro exitoso</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="registro4" value="cumple"></td>
+                <td><input type="radio" name="registro4" value="no_cumple"></td>
+                <td><input type="radio" name="registro4" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>5. Manejo de datos inválidos (mensaje de error)</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="registro5" value="cumple"></td>
+                <td><input type="radio" name="registro5" value="no_cumple"></td>
+                <td><input type="radio" name="registro5" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
         </tbody>
@@ -97,43 +99,42 @@
         <tbody>
             <tr>
                 <td>1. Formulario de inicio de sesión visible</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="sesion1" value="cumple"></td>
+                <td><input type="radio" name="sesion1" value="no_cumple"></td>
+                <td><input type="radio" name="sesion1" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>2. Validación de credenciales</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="sesion2" value="cumple"></td>
+                <td><input type="radio" name="sesion2" value="no_cumple"></td>
+                <td><input type="radio" name="sesion2" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>3. Seguridad de la sesión (protección contra ataques)</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="sesion3" value="cumple"></td>
+                <td><input type="radio" name="sesion3" value="no_cumple"></td>
+                <td><input type="radio" name="sesion3" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>4. Mensaje de error para credenciales incorrectas</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="sesion4" value="cumple"></td>
+                <td><input type="radio" name="sesion4" value="no_cumple"></td>
+                <td><input type="radio" name="sesion4" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>5. Redirección a página principal del usuario</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="sesion5" value="cumple"></td>
+                <td><input type="radio" name="sesion5" value="no_cumple"></td>
+                <td><input type="radio" name="sesion5" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
         </tbody>
     </table>
 
-    
     <h2>Caso de Uso: Buscar Producto</h2>
     <table>
         <thead>
@@ -148,41 +149,40 @@
         <tbody>
             <tr>
                 <td>1. Formulario de búsqueda visible</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="buscar1" value="cumple"></td>
+                <td><input type="radio" name="buscar1" value="no_cumple"></td>
+                <td><input type="radio" name="buscar1" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>2. Capacidad de buscar por múltiples criterios</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="buscar2" value="cumple"></td>
+                <td><input type="radio" name="buscar2" value="no_cumple"></td>
+                <td><input type="radio" name="buscar2" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>3. Resultados de búsqueda actualizados en tiempo real</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="buscar3" value="cumple"></td>
+                <td><input type="radio" name="buscar3" value="no_cumple"></td>
+                <td><input type="radio" name="buscar3" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>4. Manejo de búsquedas sin resultados (mensaje informativo)</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="buscar4" value="cumple"></td>
+                <td><input type="radio" name="buscar4" value="no_cumple"></td>
+                <td><input type="radio" name="buscar4" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
             <tr>
                 <td>5. Aplicación de filtros adicionales correctamente</td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
-                <td><input type="checkbox"></td>
+                <td><input type="radio" name="buscar5" value="cumple"></td>
+                <td><input type="radio" name="buscar5" value="no_cumple"></td>
+                <td><input type="radio" name="buscar5" value="no_aplica"></td>
                 <td><textarea></textarea></td>
             </tr>
         </tbody>
     </table>
 </body>
 </html>
-
